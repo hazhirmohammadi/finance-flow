@@ -2,26 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/*Font Face Project*/
+@font-face {
+    font-family: 'DM Regular';
+    font-style: normal;
+    font-weight: normal;
+    src:  url('/font/dmsans/DMSans-Regular.woff') format('woff');
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+    font-family: 'DM Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src:  url('/font/dmsans/DMSans-Regular.woff') format('woff');
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+    font-family: 'DM Italic';
+    font-style: normal;
+    font-weight: normal;
+    src:  url('/font/dmsans/DMSans-Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'DM Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DM Sans Medium'), url('/font/dmsans/DMSans-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'DM Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: , url('/font/dmsans/DMSans-MediumItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'DM Bold';
+    font-style: normal;
+    font-weight: normal;
+    src:  url('/font/dmsans/DMSans-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'DM Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src:  url('/font/dmsans/DMSans-BoldItalic.woff') format('woff');
+}
+/******/
+body{
+    font-family: "DM Medium", sans-serif;
+    background: #010725;
+}
+.img{
+    position: absolute;
+    width: 728px;
+    height: 728px;
+    top: -135px;
+    left: -135px;
+    opacity: .5;
+    z-index: inherit;
 }
