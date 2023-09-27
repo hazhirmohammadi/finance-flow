@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from "@/components/Nav";
 import Image from "next/image";
+import Hero from "@/components/Hero";
 
 const Home = () => {
    return (
@@ -13,6 +14,7 @@ const Home = () => {
               alt="Vector"
           />
           <Nav/>
+          <Hero/>
 
        </div>
    );

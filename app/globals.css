@@ -59,3 +59,10 @@ body{
     opacity: .5;
     z-index: inherit;
 }
+.nav_btn{
+    @apply  text-center bg-[#0328EE] text-white font-bold tracking-tighter rounded-full;
+
+}
+.v{
+
+}
