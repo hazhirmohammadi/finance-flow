@@ -60,9 +60,12 @@ body{
     z-index: inherit;
 }
 .nav_btn{
-    @apply  text-center bg-[#0328EE] text-white font-bold tracking-tighter rounded-full;
+    @apply  text-center bg-[#0328EE] text-white  tracking-tighter rounded-full;
 
 }
-.v{
-
+.nav_Link{
+    @apply max-md:hidden lg:flex  text-white font-medium;
+}
+.hero_btn{
+    @apply flex text-white rounded-full py-[13px] px-[16px];
 }

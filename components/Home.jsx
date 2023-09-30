@@ -9,7 +9,7 @@ const Home = () => {
           <Image
               width={951}
               height={951}
-              className="img z-10 blur-lg"
+              className="img z-20 blur-lg"
               src="/assets/Vector.png"
               alt="Vector"
           />
