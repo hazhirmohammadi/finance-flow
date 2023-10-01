@@ -2,7 +2,7 @@ import './globals.css'
 import '@/public/font/dmsans/style.css'
 import {Inter} from 'next/font/google'
 
-import Home from "@/components/Home";
+import Home from "@/components/home/Home";
 
 // const inter = Inter({subsets: ['latin']})
 

@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from "@/components/Nav";
 import Image from "next/image";
 import Hero from "@/components/Hero";
+import Companys from "@/components/home/companys";
 
 const Home = () => {
    return (
@@ -15,7 +16,7 @@ const Home = () => {
           />
           <Nav/>
           <Hero/>
-
+          <Companys/>
        </div>
    );
 };
