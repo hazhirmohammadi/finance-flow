@@ -2,7 +2,8 @@ import React from 'react';
 import Nav from "@/components/Nav";
 import Image from "next/image";
 import Hero from "@/components/Hero";
-import Companys from "@/components/home/companys";
+import Companys from "@/components/home/Companys";
+import PortFolio from "@/components/home/PortFolio";
 
 const Home = () => {
    return (
@@ -17,6 +18,7 @@ const Home = () => {
           <Nav/>
           <Hero/>
           <Companys/>
+          <PortFolio/>
        </div>
    );
 };
