@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Companys = () => {
    return (
-       <div className="grid col-span-12    max-lg:px-40 max-md:px-36 max-sm:px-0 flex-col mt-44 mb-8 w-full ">
+       <div className="grid col-span-12    max-lg:px-40 max-md:px-36 max-sm:px-0 flex-col mt-44 mb-44 w-full ">
           <div className="flex justify-center mb-8">
              <h3 className="text-white  font-medium text-lg">Finance flow has been featured on</h3>
           </div>

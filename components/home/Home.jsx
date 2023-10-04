@@ -4,6 +4,7 @@ import Image from "next/image";
 import Hero from "@/components/Hero";
 import Companys from "@/components/home/Companys";
 import PortFolio from "@/components/home/PortFolio";
+import HomeRewards from "@/components/home/HomeRewards";
 
 const Home = () => {
    return (
@@ -19,6 +20,7 @@ const Home = () => {
           <Hero/>
           <Companys/>
           <PortFolio/>
+          <HomeRewards/>
        </div>
    );
 };
