@@ -1,9 +1,11 @@
 import React from 'react';
 import Image from "next/image";
+import {Candal} from "next/dist/compiled/@next/font/dist/google";
 
 const HomeRewards = () => {
    return (
        <div>
+          {/*First Section*/}
           <div className="grid grid-cols-12 text-white gap-2  lg:px-36 sm:p-5 mt-44 max-sm:mt-10  flex-col ">
              <div
                  className="col-span-12 md:col-span-6 w-full  flex lg:justify-start md:justify-center max-sm:justify-center order-1 ">
@@ -12,7 +14,7 @@ const HomeRewards = () => {
                    <Image width={255} height={538} className="  max-sm:w-3/4 h-max max-sm:rotate-[5.5deg]"
                           src="/assets/homeImg/scetion4/iPhones4|2.png" alt="Rewards"/>
                    <Image width={255} height={538}
-                          className=" max-sm:w-1/2 h-max absolute xl:ml-52 md:flex max-sm:hidden sm:px-5 lg:ml-44 md:ml-32 mt-3"
+                          className=" max-sm:w-1/2 h-max lg:w-[300px] absolute xl:ml-52 md:flex max-sm:hidden sm:px-5 lg:ml-44 md:ml-32 mt-3"
                           src="/assets/homeImg/scetion4/iPhones4|1.png" alt="Rewards"/>
 
                 </div>
@@ -20,7 +22,7 @@ const HomeRewards = () => {
              <div className="col-span-12 md:col-span-6 w-full order-2 md:justify-center sm:justify-center">
                 <div className=" flex-col flex justify-end py-14 lg:pl-24  max-sm:pl-5">
 
-                   <h3 className="text-2xl font-bold ">Earn daily rewards on your idle tokens</h3>
+                   <h3 className="text-2xl font-bold  max-sm:mx-1">Earn daily rewards on your idle tokens</h3>
                    <p className="font-light text-xs mt-4">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
                       nulla suspendisse tortor aene.
@@ -56,13 +58,15 @@ const HomeRewards = () => {
               className="  absolute z-10 blur-3xl left-1/3 max-sm:w-1/3 md:w-1/3"
               src="/assets/homeImg/scetion5/Vector.png" alt="Vector"
           />
+          {/*Last Section*/}
           <div className="w-full ">
              <div className="grid grid-cols-12 text-white gap-2  lg:pl-36   mt-40 max-sm:mt-10  md:pl-5 ">
                 <div
                     className="lg:col-span-6 md:col-span-6 max-sm:col-span-12 w-full z-30 md:justify-center sm:justify-center">
                    <div className="  flex-col flex justify-start py-14 lg:pl-6  max-sm:pl-5">
 
-                      <h3 className="text-2xl max-md:text-1xl font-bold ">Earn daily rewards on your idle tokens</h3>
+                      <h3 className="text-2xl max-md:text-1xl font-bold max-sm:mx-1">Earn daily rewards on your idle
+                         tokens</h3>
                       <p className="font-light text-xs mt-4">
                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
                          nulla suspendisse tortor aene.
@@ -104,6 +108,31 @@ const HomeRewards = () => {
                    </div>
                 </div>
 
+             </div>
+          </div>
+
+
+          {/*6 Section */}
+          <div className=" mt-40 mb-20 text-white grid grid-cols-12 bg-[#0328EE] ">
+             <div className="col-span-6 max-sm:col-span-12 flex flex-col justify-start  pt-20 z-30
+               max-sm:text-center lg:pl-44 md:px-5 sm:px-5">
+
+                <h2 className="font-bold text-2xl mb-4">Explore endless possibilities with FinanceFlow</h2>
+
+                <p className="mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla suspendisse
+                   tortor aene.</p>
+
+                <button className="uppercase font-bold py-4 text-[#0328EE] bg-white w-fit max-sm:w-full justify-center  px-8 rounded-[80px] flex ">Download app</button>
+             </div>
+             <div className="col-span-6 max-sm:col-span-12 flex justify-center  ">
+                <Image
+
+                    width={400}
+                    height={500  }
+                    className=""
+                    src="/assets/homeImg/scetion6/apple6|1.png"
+                    alt="Search "
+                />
              </div>
           </div>
        </div>
