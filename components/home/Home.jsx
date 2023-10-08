@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Companys from "@/components/home/Companys";
 import PortFolio from "@/components/home/PortFolio";
 import HomeRewards from "@/components/home/HomeRewards";
+import Comment from "@/components/home/Comment";
 
 const Home = () => {
    return (
@@ -21,6 +22,7 @@ const Home = () => {
           <Companys/>
           <PortFolio/>
           <HomeRewards/>
+          <Comment/>
        </div>
    );
 };

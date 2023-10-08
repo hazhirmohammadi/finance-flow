@@ -1,4 +1,6 @@
 import './globals.css'
+import 'swiper/css';
+
 import '../public/Styles/Home.css'
 import '@/public/font/dmsans/style.css'
 import {Inter} from 'next/font/google'

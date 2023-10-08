@@ -117,7 +117,7 @@ const HomeRewards = () => {
              <div className="col-span-6 max-sm:col-span-12 flex flex-col justify-start  pt-20 z-30
                max-sm:text-center lg:pl-44 md:px-5 sm:px-5">
 
-                <h2 className="font-bold text-2xl mb-4">Explore endless possibilities with FinanceFlow</h2>
+                <h2 className="font-bold text-2xl mb-4 max-sm:mx-6">Explore endless possibilities with FinanceFlow</h2>
 
                 <p className="mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla suspendisse
                    tortor aene.</p>
