@@ -37,8 +37,31 @@
     @apply flex justify-start items-center gap-4 mt-6;
 }
 
-.comment_title {}
+.comment_title {
+}
 
 .comment_avatar {
     @apply bg-blue-50 p-5 rounded-full w-fit;
+}
+
+.swiper-pagination-bullet-active {
+    width: 10px;
+    height: 6px;
+    transition: 0.5s;
+    border-radius: 5px;
+    background: #e2e4e8;
+    border: 1px solid transparent;
+
+}
+
+.swiper-pagination {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 50px;
+}
+.swiper-pagination-bullet {
+    background: rgba(162, 162, 162, 0.46);
+
 }

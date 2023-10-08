@@ -6,6 +6,7 @@ import Companys from "@/components/home/Companys";
 import PortFolio from "@/components/home/PortFolio";
 import HomeRewards from "@/components/home/HomeRewards";
 import Comment from "@/components/home/Comment";
+import GetStart from "@/components/home/GetStart";
 
 const Home = () => {
    return (
@@ -23,6 +24,7 @@ const Home = () => {
           <PortFolio/>
           <HomeRewards/>
           <Comment/>
+          <GetStart/>
        </div>
    );
 };

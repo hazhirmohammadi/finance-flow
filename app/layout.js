@@ -1,5 +1,6 @@
 import './globals.css'
 import 'swiper/css';
+import 'swiper/css/pagination';
 
 import '../public/Styles/Home.css'
 import '@/public/font/dmsans/style.css'
