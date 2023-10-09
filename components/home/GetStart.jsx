@@ -4,8 +4,8 @@ import Image from "next/image";
 const GetStart = () => {
    return (
        <div className="mt-40 mb-40 text-white">
-          <div className="grid grid-cols-12 px-36">
-             <div className="col-span-5">
+          <div className="grid grid-cols-12 lg:px-36 md:px-5 max-sm:px-5">
+             <div className="col-span-5 max-sm:col-span-12">
 
                 <h5 className="font-semibold text-3xl mb-6">Get started today</h5>
                 <p className=" font-light text-sm mb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla suspendisse tortor aene.</p>
@@ -35,7 +35,7 @@ const GetStart = () => {
                 </div>
 
              </div>
-             <div className="col-span-7 ">
+             <div className="col-span-7 max-sm:col-span-12">
                 <div className="   rounded-[40px] h-[400px] bg-[#010D50] flex justify-center items-center">
                    <Image width={100} height={100} src="/assets/homeImg/section7/play.svg" alt="play"/>
                 </div>
