@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Download = () => {
    return (
-       <div className='text-white mb-36'>
+       <section className='text-white mb-36'>
 
           <div className="flex flex-row justify-between max-sm:flex-col col-span-12 items-center  lg:px-44 md:px-5 max-sm:px-5 mb-12">
              <h3 className="text-3xl font-bold max-sm:mb-4 ">Download our app</h3>
@@ -38,7 +38,7 @@ const Download = () => {
                        src="/assets/homeImg/section9/sec9|4.png" alt="profile"/>
              </div>
           </div>
-       </div>
+       </section>
    );
 };
 

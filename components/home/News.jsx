@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const News = () => {
    return (
-       <div className="text-white mb-36">
+       <section className="text-white mb-36">
           <div className="flex flex-row justify-between max-sm:flex-col col-span-12  lg:px-44 md:px-5 max-sm:px-5 mb-12">
              <h3 className="text-3xl font-bold">Browse our latest news</h3>
              <p className="text-sm w-1/3 max-sm:w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit non neque orci amet, amet .</p>
@@ -98,7 +98,7 @@ const News = () => {
           <div className="col-span-12 w-full flex justify-center mt-10">
              <button className="py-3 px-4 bg-gray-600 text-white  rounded-full">View All Articles</button>
           </div>
-       </div>
+       </section>
    );
 };
 

@@ -13,7 +13,7 @@ import Footer from "@/components/Footer";
 
 const Home = () => {
    return (
-       <div className="">
+       <main className="">
           <Image
               width={951}
               height={951}
@@ -31,7 +31,7 @@ const Home = () => {
           <News/>
           <Download/>
           <Footer/>
-       </div>
+       </main>
    );
 };
 

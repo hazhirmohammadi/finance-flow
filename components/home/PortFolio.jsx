@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const PortFolio = () => {
    return (
-       <div className=" text-white flex-col   max-sm:px-4  justify-center">
+       <section className=" text-white flex-col   max-sm:px-4  justify-center">
           {/*title section*/}
           <div className=" flex flex-col justify-center max-sm:justify-start lg:text-center md:text-center">
              <h2 className="text-4xl max-sm:text-2xl font-bold mb-4">Build your crypto portfolio</h2>
@@ -92,7 +92,7 @@ const PortFolio = () => {
              >download app
              </button>
           </div>
-       </div>
+       </section>
    );
 };
 

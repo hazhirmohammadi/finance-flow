@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const GetStart = () => {
    return (
-       <div className="mt-40 mb-40 text-white">
+       <section className="mt-40 mb-40 text-white">
           <div className="grid grid-cols-12 lg:px-36 md:px-5 max-sm:px-5">
              <div className="col-span-5 max-sm:col-span-12">
 
@@ -41,7 +41,7 @@ const GetStart = () => {
                 </div>
              </div>
           </div>
-       </div>
+       </section>
    );
 };
 

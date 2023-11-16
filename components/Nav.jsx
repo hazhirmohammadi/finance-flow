@@ -12,12 +12,12 @@ const Nav = () => {
                           alt="logo"/>
                    <span className='lg:font-medium font-bold md:font-extralight'>FinanceFlow</span>
                 </div>
-                <li className=" nav_Link md:text-xs lg:text-sm underline">Home</li>
-                <li className=" nav_Link md:text-xs lg:text-sm">About</li>
-                <li className=" nav_Link md:text-xs lg:text-sm">Pricing</li>
-                <li className=" nav_Link md:text-xs lg:text-sm">Tokens</li>
-                <li className=" nav_Link md:text-xs lg:text-sm">Blog</li>
-                <li className=" nav_Link md:text-xs lg:text-sm">contact us</li>
+                <Link href="" className=" nav_Link md:text-xs lg:text-sm underline">Home</Link>
+                <Link href="/about/" className=" nav_Link md:text-xs lg:text-sm">About</Link>
+                <Link href="" className=" nav_Link md:text-xs lg:text-sm">Pricing</Link>
+                <Link href="" className=" nav_Link md:text-xs lg:text-sm">Tokens</Link>
+                <Link href="" className=" nav_Link md:text-xs lg:text-sm">Blog</Link>
+                <Link href="" className=" nav_Link md:text-xs lg:text-sm">contact us</Link>
 
              </ul>
              <div className=" flex  xl:pr-9 ml-auto">

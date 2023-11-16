@@ -12,10 +12,10 @@ const HomeRewards = () => {
                 <div className="flex flex-row justify-center">
 
                    <Image width={255} height={538} className="  max-sm:w-3/4 h-max max-sm:rotate-[5.5deg]"
-                          src="/assets/homeImg/scetion4/iPhones4|2.png" alt="Rewards"/>
+                          src="/assets/homeImg/section4/iPhones4|2.png" alt="Rewards"/>
                    <Image width={255} height={538}
                           className=" max-sm:w-1/2 h-max lg:w-[300px] absolute xl:ml-52 md:flex max-sm:hidden sm:px-5 lg:ml-44 md:ml-32 mt-3"
-                          src="/assets/homeImg/scetion4/iPhones4|1.png" alt="Rewards"/>
+                          src="/assets/homeImg/section4/iPhones4|1.png" alt="Rewards"/>
 
                 </div>
              </div>
@@ -30,21 +30,21 @@ const HomeRewards = () => {
 
                    <div className="flex flex-row justify-start mt-8 items-center gap-4">
                       <div className="bg-[#0328EE] w-fit p-2 rounded-[13px]">
-                         <Image width={32} height={32} src="/assets/homeImg/scetion4/sec4|1.svg" alt=""/>
+                         <Image width={32} height={32} src="/assets/homeImg/section4/sec4|1.svg" alt=""/>
                       </div>
                       <span className="font-sm text-sm">Lowest fees in market</span>
                    </div>
 
                    <div className="flex flex-row justify-start mt-8 items-center gap-4">
                       <div className="bg-[#0328EE] w-fit p-2 rounded-[13px]">
-                         <Image width={32} height={32} src="/assets/homeImg/scetion4/sec4|2.svg" alt=""/>
+                         <Image width={32} height={32} src="/assets/homeImg/section4/sec4|2.svg" alt=""/>
                       </div>
                       <span className="font-sm text-sm">Fast and secure transactions</span>
                    </div>
 
                    <div className="flex flex-row justify-start mt-8 items-center gap-4">
                       <div className="bg-[#0328EE] w-fit px-2  py-1 rounded-[13px]">
-                         <Image width={33} height={25} src="/assets/homeImg/scetion4/sec4|3.svg" alt=""/>
+                         <Image width={33} height={25} src="/assets/homeImg/section4/sec4|3.svg" alt=""/>
                       </div>
                       <span className="font-sm text-sm ">256-bit secure encryption</span>
                    </div>
@@ -56,7 +56,7 @@ const HomeRewards = () => {
               width={600}
               height={600}
               className="  absolute z-10 blur-3xl left-1/3 max-sm:w-1/3 md:w-1/3"
-              src="/assets/homeImg/scetion5/Vector.png" alt="Vector"
+              src="/assets/homeImg/section5/Vector.png" alt="Vector"
           />
           {/*Last Section*/}
           <div className="w-full ">
@@ -74,21 +74,21 @@ const HomeRewards = () => {
 
                       <div className="flex flex-row  mt-8 items-center gap-4">
                          <div className="bg-[#0328EE] w-fit p-2 rounded-[13px]">
-                            <Image width={32} height={32} src="/assets/homeImg/scetion5/photo5|2.svg" alt=""/>
+                            <Image width={32} height={32} src="/assets/homeImg/section5/photo5|2.svg" alt=""/>
                          </div>
                          <span className="font-sm text-sm">100% Private data</span>
                       </div>
 
                       <div className="flex flex-row  mt-8 items-center gap-4">
                          <div className="bg-[#0328EE] w-fit p-2 rounded-[13px]">
-                            <Image width={32} height={32} src="/assets/homeImg/scetion5/photo5|3.svg" alt=""/>
+                            <Image width={32} height={32} src="/assets/homeImg/section5/photo5|3.svg" alt=""/>
                          </div>
                          <span className="font-sm text-sm">99.99% Uptime guarantee</span>
                       </div>
 
                       <div className="flex flex-row  mt-8 items-center gap-4">
                          <div className="bg-[#0328EE] w-fit px-2  py-1 rounded-[13px]">
-                            <Image width={32} height={32} src="/assets/homeImg/scetion5/photo5|4.svg" alt=""/>
+                            <Image width={32} height={32} src="/assets/homeImg/section5/photo5|4.svg" alt=""/>
                          </div>
                          <span className="font-sm text-sm ">24/7 Dedicated support</span>
                       </div>
@@ -98,10 +98,10 @@ const HomeRewards = () => {
                 <div
                     className="lg:col-span-6 md:col-span-6 max-sm:col-span-12 w-full  flex lg:justify-end md:justify-center sm:justify-center  ">
                    <div className="flex  justify-end max-sm:justify-center p-0 max-sm:px-5">
-                      <Image width={971} height={971} src="/assets/homeImg/scetion5/Apple5|1.png" alt="Rewards"
+                      <Image width={971} height={971} src="/assets/homeImg/section5/Apple5|1.png" alt="Rewards"
                              className="z-30 max-md:w-2/4 flex max-sm:hidden"
                       />
-                      <Image width={971} height={971} src="/assets/homeImg/scetion5/AppleSm5|2.png" alt="Rewards"
+                      <Image width={971} height={971} src="/assets/homeImg/section5/AppleSm5|2.png" alt="Rewards"
                              className="z-30  hidden  max-sm:flex   sm:justify-center"
                       />
 
@@ -130,7 +130,7 @@ const HomeRewards = () => {
                     width={400}
                     height={500  }
                     className=""
-                    src="/assets/homeImg/scetion6/apple6|1.png"
+                    src="/assets/homeImg/section6/apple6|1.png"
                     alt="Search "
                 />
              </div>
